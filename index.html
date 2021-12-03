@@ -1,15 +1,216 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>Katie Hockman</title>
-
-</head>
+<title>Katie Hockman</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="main.css" />
 
 <body>
-  Hello world
+  <!-- Resume -->
+  <h1>Katie Hockman</h1>
+  <span class="job-title">Software Engineer</span>
+  <span class="location">NYC, New York</span>
+
+  <div class="communication">
+    <ul class="no-bullet">
+      <li>
+        <!-- <img src="" alt="Email" /> -->
+        <a class="comm-link" href="mailto:hockmankatie@gmail.com">hockmankatie@gmail.com</a>
+      </li>
+      <li>
+        <!-- <img src="" alt="Github" /> -->
+        <a class="comm-link" href="https://www.github.com/katiehockman">github.com/katiehockman</a>
+      </li>
+      <li>
+        <!-- <img src="" alt="Twitter" /> -->
+        <a class="comm-link" href="https://www.twitter.com/katie_hockman">@katie_hockman</a>
+      </li>
+      <li>
+        <!-- <img src="" alt="LinkedIn" /> -->
+        <a class="comm-link" href="https://www.linkedin.com/in/katie-hockman-526b51135/">LinkedIn</a>
+      </li>
+    </ul>
+  </div>
+
+  <h2>Languages & Skills</h2>
+
+  <div class="languages-skills">
+    <ul class="no-bullet">
+      <li><b>Languages</b>: Go, Java, Javascript, HTML/CSS, SQL, Python, Typescript</li>
+      <li>
+        <b>Technical</b>: System Design, Fuzzing, Accessibility, Security,
+        Vulnerability Triage, Git, OSS
+      </li>
+      <li>
+        <b>Core Skills</b>: Cross-Functional Leadership, Mentoring, Public
+        Speaking, Teamwork
+      </li>
+    </ul>
+  </div>
+
+  <h2>Experience</h2>
+
+  <div class="experience">
+    <span class="job-title">
+      Google, New York - Senior Software Engineer | June 2015 - present
+    </span>
+    <h3 class="team-name">
+      Go Language Team, Go Security Team: August 2018 - present
+    </h3>
+    <ul class="team-details">
+      <li>
+        <p>
+          Tech Lead for Go fuzzing, which supports Go developers in finding and
+          fixing bugs and security exploits in their programs. This is the first
+          programming language to provide this functionality in its standard
+          toolchain, and promotes the security of the Go ecosystem.
+        </p>
+        <p>
+          I was the lead of this ~2 year effort at all stages of development. I
+          authored the
+          <a href="golang.org/s/draft-fuzzing-design">API and CLI design</a>,
+          and led implementation, product planning, documentation, public
+          communications, and launch.
+        </p>
+        <p>
+          I have spoken on two Go Time podcasts about fuzzing, and authored a
+          <a href="https://go.dev/blog/fuzz-beta">blog post</a>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Tech Lead for the module mirror, checksum database, and index
+          (<a href="https://proxy.golang.org">proxy.golang.org</a>,
+          <a href="https://sum.golang.org">sum.golang.org</a>,
+          and <a href="https://index.golang.org">index.golang.org</a> respectively).
+          These are the default services used by all Go developers for secure,
+          reliable source code downloads. Go is the first language to support
+          downloads in this way, and this work has inspired other languages to
+          consider using similar techniques.
+        </p>
+        <p>
+          This service has an SLO of 5 9s, and I am a member of the oncall team.
+        </p>
+        <p>
+          I led a senior engineering team in design, development, product
+          planning, and launch. Drove cross-team collaboration with product,
+          legal, leadership, and the open source community. I was the primary
+          contributor for the checksum database, which was the most
+          security-sensitive part of the project. This involved integrating with
+          <a href="https://github.com/google/trillian">Trillian</a> (the Merkle tree
+          backing the <a href="https://research.swtch.com/tlog">transparency log</a>),
+          and implementing tiling of Trillian's data to store and serve through the
+          frontend.
+        </p>
+        <p>
+          I traveled around the world to present about this project, and my
+          <a href="https://youtu.be/KqTySYYhPUE">talk</a>
+          and <a href="https://go.dev/blog/module-mirror-launch">blog post</a>
+          have become the canonical source for Go developers to understand this topic.
+        </p>
+      </li>
+      <li>
+        Triaged and fixed vulnerabilities in the Go standard library,
+        implemented hardening measures and security fixes as a member of the
+        Go security team.
+      </li>
+      <li>Promoted to Senior Software Engineer in 2019.</li>
+    </ul>
+    <h3 class="team-name">
+      Accessibility Internal Tools Team: August 2015 - August 2018
+    </h3>
+    <ul class="team-details">
+      <li>
+        This was a brand new team that we built from the ground up. I worked
+        on a 20% basis with a group of other 20%ers for about a year before I
+        transitioned to the team full time. During the development of this
+        team, I was involved with the hiring of other engineers, as well as a
+        Technical Program Manager.
+      </li>
+      <li>
+        Trained engineers/UX, fixed accessibility issues, and facilitated
+        systemic change in the organization to make workplace tools accessible
+        and usable for employees with disabilities. Worked on tools to track
+        accessibility progress across the organization.
+      </li>
+      <li>
+        This team helped me hone my cross-functional leadership skills. As
+        part of engaging with other teams at Google, I worked with management,
+        engineers, and UX experts across the organization to get their team
+        up-to-speed and passionate about accessibility. The goal was to make
+        teams self-sustainable and set up for success in the long-term.
+      </li>
+      <li>Promoted to Software Engineer II in 2017.</li>
+    </ul>
+    <h3 class="team-name">
+      Supply Chain APIs Team: June 2015 - August 2016
+    </h3>
+    <ul class="team-details">
+      <li>
+        Implemented Java APIs and services to support Google supply chain.
+        This work mostly involved writing business logic around external APIs.
+        For example, I owned the integration work involved with supporting new
+        shipping carriers for return slips of Google orders.
+      </li>
+      <li>
+        I was a member of the oncall team, and I partnered with Site
+        Reliability Engineers to onboard them to work with the team.
+      </li>
+      <li>
+        While on this team, I worked 20% with the accessibility team (a
+        collaboration with the org's VP) which was an effort that I eventually
+        transitioned to full-time in 2016.
+      </li>
+    </ul>
+    <h3 class="team-name">Miscellanous responsibilities</h3>
+    <ul class="team-details">
+      <li>
+        Mentored several junior engineers during my time at Google, both
+        formally and informally.
+      </li>
+      <li>Hosted two interns, and co-hosted an engineering resident.</li>
+      <li>
+        Conducted over 50 technical interviews, both over the phone, and
+        in-person, and been a part of the hiring decisions for several
+        different roles at Google.
+      </li>
+      <li>Participated in promotion committees.</li>
+      <li>Taught several accessibility sessions to new hires.</li>
+    </ul>
+  </div>
+
+  <h2>Education</h2>
+  <div class="education">
+    Miami University, Ohio - B.S. Computer Science
+    <br />
+    Honors degree, Magna Cum Laude, Teaching Assistant, Augmented Reality
+    research
+  </div>
+
+  <h2>Public Speaking Engagements</h2>
+  <div class="talks">
+    <ul>
+      <li>
+        <a href="https://io.google/2021/session/7b7e7dd8-57a5-4459-a96e-1494d09efbe6/?lng=en">Google I/O 2021
+          virtual</a>
+      </li>
+      <li><a href="https://youtu.be/KqTySYYhPUE">Gophercon 2019 San Diego</a></li>
+      <li>
+        <a href="https://github.com/GoCon/2019-Spring/blob/master/content/pages/home.md#keynote-speaker-katie-hockman">Gocon
+          2019 Japan: Keynote</a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/watch?v=kqMxaO9d1NM">GoLab 2019 Italy</a>
+      </li>
+      <li>
+        <a href="https://www.meetup.com/golanguagenewyork/events/264955744/">Go Meetup NYC 2019</a>
+      </li>
+      <li>
+        Go Time Podcast episodes: <a href="https://changelog.com/gotime/145">#145</a>, <a
+          href="https://changelog.com/gotime/187">#187</a>
+      </li>
+    </ul>
+  </div>
 </body>
+
 </html>
