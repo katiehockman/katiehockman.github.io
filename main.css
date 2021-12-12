@@ -1,13 +1,17 @@
+html {
+    font-size: 100%
+}
 body {
-    margin: 2rem;
-    margin-right: 20rem;
+    margin: 0 auto 2rem 1.5rem;
+    max-width: 70rem;
+    padding: 0 1.5rem;
 }
 div {
     margin: 1rem;
 }
 ul {
-    padding-left: 1rem;
     margin: 0.5rem;
+    padding-left: 1rem;
 }
 li {
     list-style-type: circle;
@@ -20,12 +24,11 @@ h2 {
     font-size: 1.5rem;
 }
 * {
-    font-size: 1rem;
     font-family: Helvetica, Arial, sans-serif;
+    font-size: 1rem;
 }
 .communication img {
     height: auto;
-    vertical-align: bottom;
     margin-right: 5px;
     vertical-align: middle;
 }
