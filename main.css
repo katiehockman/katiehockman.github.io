@@ -1,3 +1,7 @@
+body {
+    margin: 2rem;
+    margin-right: 20rem;
+}
 div {
     margin: 1rem;
 }
@@ -18,6 +22,16 @@ h2 {
 * {
     font-size: 1rem;
     font-family: Helvetica, Arial, sans-serif;
+}
+.communication img {
+    height: auto;
+    vertical-align: bottom;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.communication li {
+    margin-bottom: 10rem;
+    vertical-align: center;
 }
 
 .no-bullet li {
