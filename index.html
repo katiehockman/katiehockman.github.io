@@ -4,11 +4,10 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="stylesheet" href="main.css" />
-
 <body>
   <!-- Resume -->
   <h1>Katie Hockman</h1>
-  <span>Hello! I'm a senior software engineer, and I'm open to in-office/hybrid
+  <span style="font-style: italic;">Open to in-office/hybrid software engineering
     opportunities in NYC. Strong preference for working in Go.</span>
 
   <div class="communication">
@@ -29,6 +28,33 @@
         <img src="images/linkedin.png" alt="LinkedIn" style="width: 28px; padding: 1px;" />
         <a class="comm-link" href="https://www.linkedin.com/in/katie-hockman-526b51135/">LinkedIn</a>
       </li>
+    </ul>
+  </div>
+
+  <h2>Public Speaking Engagements</h2>
+  <div class="talks">
+    <ul>
+      <li>
+        <a href="https://io.google/2021/session/7b7e7dd8-57a5-4459-a96e-1494d09efbe6/?lng=en">Google I/O 2021
+          virtual</a>
+      </li>
+      <li><a href="https://youtu.be/KqTySYYhPUE">Gophercon 2019 San Diego</a></li>
+      <li>
+        <a href="https://github.com/GoCon/2019-Spring/blob/master/content/pages/home.md#keynote-speaker-katie-hockman">Gocon
+          2019 Tokyo: Keynote</a>
+      </li>
+      <li><a href="https://tokyo.gdgjapan.org/devfest2019/session/katie-hockman">GDG DevFest Tokyo 2019</a></li>
+      <li>
+        <a href="https://www.youtube.com/watch?v=kqMxaO9d1NM">GoLab 2019 Italy</a>
+      </li>
+      <li>
+        <a href="https://www.meetup.com/golanguagenewyork/events/264955744/">Go Meetup NYC 2019</a>
+      </li>
+      <li>
+        Go Time Podcast episodes: <a href="https://changelog.com/gotime/145">#145</a>, <a
+          href="https://changelog.com/gotime/187">#187</a>
+      </li>
+      <li><a href="https://www.gophercon.com/agenda/session/658810">Gophercon 2021 virtual</a></li>
     </ul>
   </div>
 
@@ -74,40 +100,45 @@
           communications, and launch.
         </p>
         <p>
-          I have spoken on two Go Time podcasts about fuzzing, and authored a
+          I have spoken on two Go Time podcasts about fuzzing
+          (<a href="https://changelog.com/gotime/145">#145</a>,
+          <a href="https://changelog.com/gotime/187">#187</a>), and authored a
           <a href="https://go.dev/blog/fuzz-beta">blog post</a>.
         </p>
       </li>
       <li>
         <p>
-          Tech Lead for the module mirror, checksum database, and index
+          Tech Lead for building the module mirror, checksum database, and index
           (<a href="https://proxy.golang.org">proxy.golang.org</a>,
           <a href="https://sum.golang.org">sum.golang.org</a>,
-          and <a href="https://index.golang.org">index.golang.org</a> respectively).
+          and <a href="https://index.golang.org">index.golang.org</a> respectively),
+          using the
+          <a href="https://go.googlesource.com/proposal/+/master/design/25530-sumdb.md">
+            ecosystem and crytographic designs</a> authored by Russ Cox and Filippo Valsorda.
           These are the default services used by all Go developers for secure,
           reliable source code downloads. Go is the first language to support
           downloads in this way, and this work has inspired other languages to
           consider using similar techniques.
         </p>
         <p>
-          This service has an SLO of 5 9s, and I am a member of the oncall team.
-        </p>
-        <p>
           I led a senior engineering team in design, development, product
           planning, and launch. Drove cross-team collaboration with product,
           legal, leadership, and the open source community. I was the primary
           contributor for the checksum database, which was the most
-          security-sensitive part of the project. This involved integrating with
+          security-sensitive component of the project. This involved integrating with
           <a href="https://github.com/google/trillian">Trillian</a> (the Merkle tree
           backing the <a href="https://research.swtch.com/tlog">transparency log</a>),
           and implementing tiling of Trillian's data to store and serve through the
           frontend.
         </p>
         <p>
+          This service has an SLO of 5 9s, and I am a member of the oncall team.
+        </p>
+        <p>
           I traveled around the world to present about this project, and my
           <a href="https://youtu.be/KqTySYYhPUE">talk</a>
           and <a href="https://go.dev/blog/module-mirror-launch">blog post</a>
-          have become the canonical source for Go developers to understand this topic.
+          have become a canonical source for Go developers to understand this topic.
         </p>
       </li>
       <li>
@@ -150,8 +181,9 @@
       <li>
         Implemented Java APIs and services to support Google supply chain.
         This work mostly involved writing business logic around external APIs.
-        For example, I owned the integration work involved with supporting new
-        shipping carriers for return slips of Google orders.
+        I owned the integration work involved with supporting new
+        shipping carriers for return slips of Google orders, among other
+        responsibilities.
       </li>
       <li>
         I was a member of the oncall team, and I partnered with Site
@@ -187,31 +219,5 @@
     Honors degree, Magna Cum Laude, Teaching Assistant, Augmented Reality
     research
   </div>
-
-  <h2>Public Speaking Engagements</h2>
-  <div class="talks">
-    <ul>
-      <li>
-        <a href="https://io.google/2021/session/7b7e7dd8-57a5-4459-a96e-1494d09efbe6/?lng=en">Google I/O 2021
-          virtual</a>
-      </li>
-      <li><a href="https://youtu.be/KqTySYYhPUE">Gophercon 2019 San Diego</a></li>
-      <li>
-        <a href="https://github.com/GoCon/2019-Spring/blob/master/content/pages/home.md#keynote-speaker-katie-hockman">Gocon
-          2019 Japan: Keynote</a>
-      </li>
-      <li>
-        <a href="https://www.youtube.com/watch?v=kqMxaO9d1NM">GoLab 2019 Italy</a>
-      </li>
-      <li>
-        <a href="https://www.meetup.com/golanguagenewyork/events/264955744/">Go Meetup NYC 2019</a>
-      </li>
-      <li>
-        Go Time Podcast episodes: <a href="https://changelog.com/gotime/145">#145</a>, <a
-          href="https://changelog.com/gotime/187">#187</a>
-      </li>
-    </ul>
-  </div>
 </body>
-
 </html>

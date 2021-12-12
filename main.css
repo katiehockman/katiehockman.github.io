@@ -27,6 +27,7 @@ h2 {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 1rem;
 }
+
 .communication img {
     height: auto;
     margin-right: 5px;
@@ -36,10 +37,12 @@ h2 {
     margin-bottom: 10rem;
     vertical-align: center;
 }
-
 .no-bullet li {
     list-style-type: none;
     margin-bottom: 0.3rem;
+}
+.talks ul {
+    columns: 2 auto;
 }
 .experience p {
     margin-top: 0rem;
