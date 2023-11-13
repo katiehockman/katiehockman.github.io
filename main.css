@@ -6,6 +6,9 @@ body {
     max-width: 50rem;
     padding: 0 1.5rem;
 }
+a {
+    color: #0C7DA7
+}
 div {
     margin: 1rem;
 }
